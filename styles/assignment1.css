@@ -34,6 +34,16 @@
     transform: translateY(4px);
 }
 
+.section-title {
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+
+.section-description {
+    font-size: 18px;
+}
+
 
 /* header */
 .header {
@@ -58,12 +68,12 @@ nav {
     align-items: center;
     padding: 20px 50px;
     margin: 0px 150px 158px 150px;
-    
+
 }
 
 .nav-title {
     font-size: 34;
-    
+
 
 }
 
@@ -79,8 +89,38 @@ nav {
     /* margin: 0px 35px 0px 200px ; */
     margin-bottom: 100px;
 }
+
 .banner h1 {
-  font-size: 2.5rem;
-  margin-bottom: 30px;
-  color: #1a1a1a;
+    font-size: 65px;
+    margin-bottom: 30px;
+    color: #1a1a1a;
+}
+
+/* main style */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 130px;
+    margin-bottom: 130px;
+    /* margin-left: 140px; */
+    /* margin-right: 150px; */
+}
+
+
+/* action */
+.action {
+    display: flex;
+    justify-content: space-around;
+}
+.action-p{
+    padding: 60px 0px 60px 0px;
+}
+.action-img {
+    border-radius: 48px;
+    padding: 20px;
+    width: 430px;
+    height: 320px;
 }
