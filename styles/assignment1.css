@@ -43,7 +43,8 @@
 .section-description {
     font-size: 18px;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
 
@@ -119,9 +120,11 @@ main section {
     gap: 210px;
     /* padding: 50px 145px; */
 }
-.action-p{
+
+.action-p {
     padding: 60px 0px 60px 0px;
 }
+
 .action-img {
     border-radius: 48px;
     padding: 20px;
@@ -130,25 +133,82 @@ main section {
 }
 
 /* productive_user style */
-.productive-user{
+.productive-user {
     border-radius: 24px;
     padding: 50px 145px;
     background-color: rgba(78, 71, 255, 0.1);
 }
-.productive-user h3{
-    
-}
-.user-container{
+
+/* .productive-user h3 {} */
+
+.user-container {
     display: flex;
     justify-content: space-around;
 }
-.user-title{
-   font-size: 80px;
-   margin-bottom: 5px;
-   font-weight: bold;
-   color: #4E47FF;
+
+.user-title {
+    font-size: 80px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #4E47FF;
 }
-.user-description{
+
+.user-description {
     font-size: 20px;
     color: #rgba(0, 0, 0, 0.5);
+}
+
+/* review style */
+
+.review {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.review-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.box {
+    background: #fff;
+    border-radius: 14px;
+    padding: 24px;
+    width: 280px;
+    box-shadow: 0 4px 12px rgba(242, 237, 237, 1);
+    text-align: left;
+}
+
+.bos h3 {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+.box p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.reviewer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.name {
+  font-weight: bold;
+  font-size: 14px;
+  color: #333;
+}
+
+.date {
+  font-size: 12px;
+  color: #999;
 }
