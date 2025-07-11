@@ -212,3 +212,39 @@ main section {
   font-size: 12px;
   color: #999;
 }
+
+/* get-in-touch style */
+
+.get-in-touch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 40px;
+    gap: 115px;
+    flex-wrap: wrap;
+}
+.right-side {
+    min-width: 300px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label {
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+  color: #222;
+}
+
+input, textarea {
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+  resize: none;
+}
+
+textarea {
+  min-height: 100px;
+}
